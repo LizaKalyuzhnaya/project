@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List items renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListItem
+    provided={Object {}}
+    text="a"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="app__search__list-place__item__text"
+        >
+          a
+        </p>,
+        <div>
+          <svg
+            className="app__search__list-place__item__svg"
+            fill="none"
+            height="14"
+            viewBox="0 0 14 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z"
+              fill="#007AFF"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>,
+      ],
+      "className": "app__search__list-place__item",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "a",
+          "className": "app__search__list-place__item__text",
+        },
+        "ref": null,
+        "rendered": "a",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <svg
+            className="app__search__list-place__item__svg"
+            fill="none"
+            height="14"
+            viewBox="0 0 14 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z"
+              fill="#007AFF"
+              fillRule="evenodd"
+            />
+          </svg>,
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <path
+              clipRule="evenodd"
+              d="M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z"
+              fill="#007AFF"
+              fillRule="evenodd"
+            />,
+            "className": "app__search__list-place__item__svg",
+            "fill": "none",
+            "height": "14",
+            "viewBox": "0 0 14 14",
+            "width": "14",
+            "xmlns": "http://www.w3.org/2000/svg",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "clipRule": "evenodd",
+              "d": "M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z",
+              "fill": "#007AFF",
+              "fillRule": "evenodd",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "path",
+          },
+          "type": "svg",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="app__search__list-place__item__text"
+          >
+            a
+          </p>,
+          <div>
+            <svg
+              className="app__search__list-place__item__svg"
+              fill="none"
+              height="14"
+              viewBox="0 0 14 14"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z"
+                fill="#007AFF"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>,
+        ],
+        "className": "app__search__list-place__item",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "a",
+            "className": "app__search__list-place__item__text",
+          },
+          "ref": null,
+          "rendered": "a",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <svg
+              className="app__search__list-place__item__svg"
+              fill="none"
+              height="14"
+              viewBox="0 0 14 14"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z"
+                fill="#007AFF"
+                fillRule="evenodd"
+              />
+            </svg>,
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <path
+                clipRule="evenodd"
+                d="M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z"
+                fill="#007AFF"
+                fillRule="evenodd"
+              />,
+              "className": "app__search__list-place__item__svg",
+              "fill": "none",
+              "height": "14",
+              "viewBox": "0 0 14 14",
+              "width": "14",
+              "xmlns": "http://www.w3.org/2000/svg",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "clipRule": "evenodd",
+                "d": "M1.09325 0.0324857L0.0325866 1.09315L5.68944 6.75L0.0325866 12.4069L1.09325 13.4675L6.7501 7.81066L12.407 13.4675L13.4676 12.4069L7.81076 6.75L13.4676 1.09315L12.407 0.0324857L6.7501 5.68934L1.09325 0.0324857Z",
+                "fill": "#007AFF",
+                "fillRule": "evenodd",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "path",
+            },
+            "type": "svg",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

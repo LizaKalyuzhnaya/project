@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map Map when balloon closed renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withProps(withHandlers(withScriptjs(withGoogleMap(Component))))
+    placeNames={
+      Array [
+        Object {
+          "coordinates": Object {
+            "lat": 20,
+            "lng": 30,
+          },
+          "id": 0,
+          "isOpen": false,
+          "text": "A",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "containerElement": <div
+        style={
+          Object {
+            "height": "97vh",
+            "width": "70vw",
+          }
+        }
+      />,
+      "googleMapURL": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCnwOD27FbIUsHC-RndOtEYar_ADYBT1Dg",
+      "loadingElement": <div
+        style={
+          Object {
+            "height": "80%",
+          }
+        }
+      />,
+      "mapElement": <div
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      />,
+      "placeNames": Array [
+        Object {
+          "coordinates": Object {
+            "lat": 20,
+            "lng": 30,
+          },
+          "id": 0,
+          "isOpen": false,
+          "text": "A",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "containerElement": <div
+          style={
+            Object {
+              "height": "97vh",
+              "width": "70vw",
+            }
+          }
+        />,
+        "googleMapURL": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCnwOD27FbIUsHC-RndOtEYar_ADYBT1Dg",
+        "loadingElement": <div
+          style={
+            Object {
+              "height": "80%",
+            }
+          }
+        />,
+        "mapElement": <div
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />,
+        "placeNames": Array [
+          Object {
+            "coordinates": Object {
+              "lat": 20,
+              "lng": 30,
+            },
+            "id": 0,
+            "isOpen": false,
+            "text": "A",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Map Map when balloon open renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withProps(withHandlers(withScriptjs(withGoogleMap(Component))))
+    placeNames={
+      Array [
+        Object {
+          "coordinates": Object {
+            "lat": 20,
+            "lng": 30,
+          },
+          "id": 0,
+          "isOpen": true,
+          "text": "A",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "containerElement": <div
+        style={
+          Object {
+            "height": "97vh",
+            "width": "70vw",
+          }
+        }
+      />,
+      "googleMapURL": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCnwOD27FbIUsHC-RndOtEYar_ADYBT1Dg",
+      "loadingElement": <div
+        style={
+          Object {
+            "height": "80%",
+          }
+        }
+      />,
+      "mapElement": <div
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      />,
+      "placeNames": Array [
+        Object {
+          "coordinates": Object {
+            "lat": 20,
+            "lng": 30,
+          },
+          "id": 0,
+          "isOpen": true,
+          "text": "A",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "containerElement": <div
+          style={
+            Object {
+              "height": "97vh",
+              "width": "70vw",
+            }
+          }
+        />,
+        "googleMapURL": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCnwOD27FbIUsHC-RndOtEYar_ADYBT1Dg",
+        "loadingElement": <div
+          style={
+            Object {
+              "height": "80%",
+            }
+          }
+        />,
+        "mapElement": <div
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />,
+        "placeNames": Array [
+          Object {
+            "coordinates": Object {
+              "lat": 20,
+              "lng": 30,
+            },
+            "id": 0,
+            "isOpen": true,
+            "text": "A",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
